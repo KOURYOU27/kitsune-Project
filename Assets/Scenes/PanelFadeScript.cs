@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PanelFadeScript : MonoBehaviour {
+public class PanelFadeScript : MonoBehaviour
+{
 
     public float fadeSpeed = 0.02f;        //透明度が変わるスピードを管理
     public float red, green, blue, alfa;   //パネルの色、不透明度を管理

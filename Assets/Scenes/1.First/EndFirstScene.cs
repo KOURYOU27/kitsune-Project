@@ -6,7 +6,8 @@ using HedgehogTeam.EasyTouch;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 
-public class EndFirstScene : MonoBehaviour {
+public class EndFirstScene : MonoBehaviour
+{
 
     //パネル参照
     public PanelFadeScript panelFadeScript;
@@ -15,7 +16,8 @@ public class EndFirstScene : MonoBehaviour {
 
     float time;//時間を記録する小数も入る変数.
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         time = 0;
 
         Panel = GameObject.Find("Panel"); //パネルをオブジェクトの名前から取得して変数に格納する
@@ -33,7 +35,8 @@ public class EndFirstScene : MonoBehaviour {
 
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
 
         time += Time.deltaTime;//毎フレームの時間を加算.
 

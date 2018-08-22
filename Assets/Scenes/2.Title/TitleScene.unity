@@ -196,7 +196,6 @@ GameObject:
   m_Component:
   - component: {fileID: 473502657}
   - component: {fileID: 473502656}
-  - component: {fileID: 473502655}
   - component: {fileID: 473502658}
   m_Layer: 0
   m_Name: Uweeen
@@ -205,13 +204,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &473502655
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 473502654}
-  m_Enabled: 1
 --- !u!82 &473502656
 AudioSource:
   m_ObjectHideFlags: 0

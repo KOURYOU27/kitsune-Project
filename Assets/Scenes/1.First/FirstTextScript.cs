@@ -4,17 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using HedgehogTeam.EasyTouch;
 
-public class FirstTextScript : MonoBehaviour {
+public class FirstTextScript : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         audio = GetComponent<AudioSource>();
 
         gameObject.SetActive(false);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
 
     }
 
@@ -25,7 +28,8 @@ public class FirstTextScript : MonoBehaviour {
     {
         gameObject.SetActive(true);
 
-        StartCoroutine(Checking(() => {
+        StartCoroutine(Checking(() =>
+        {
             // 音が終わったらテキストを消す
             gameObject.SetActive(false);
             // テキストが出て消えた数カウント
